@@ -1,0 +1,22 @@
+#Friendly_Olhos {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100dvh;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  background-color: transparent;
+}
+#Friendly_Olhos div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Friendly_Olhos * {
+  overflow: hidden !important;
+  pointer-events: none;
+}
