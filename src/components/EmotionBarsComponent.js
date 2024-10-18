@@ -82,13 +82,13 @@ const EmotionBarsComponent = ({ onEmotionChange }) => {
       <Friendly_Olhos emocao={emocao}></Friendly_Olhos> {/* Pass emotion */}
       <p style={{ fontSize: "20px" }}>EmotionBars Component:</p>
       <div id="emotionsContainer">
-        <SingleBarComponent name="Angry" color1="#E21919" color2="#984E4E" value={angry}></SingleBarComponent>
-        <SingleBarComponent name="disgust" color1="#37D042" color2="#1A6420" value={disgust}></SingleBarComponent>
-        <SingleBarComponent name="Fear" color1="#FF007A" color2="#906490" value={fear}></SingleBarComponent>
-        <SingleBarComponent name="Happy" color1="#FFEA00" color2="#8F8A57" value={happy}></SingleBarComponent>
-        <SingleBarComponent name="Sad" color1="#6CB4DF" color2="#4E8698" value={sad}></SingleBarComponent>
-        <SingleBarComponent name="surprise" color1="#F5B9C3" color2="#664E98" value={surprise}></SingleBarComponent>
-        <SingleBarComponent name="Neutral" color1="#A9A9A9" color2="#737373" value={neutral}></SingleBarComponent>
+        <SingleBarComponent name="Angry" color1="#FF4848" color2="#FF4848" value={angry}></SingleBarComponent>
+{/*         <SingleBarComponent name="disgust" color1="#37D042" color2="#1A6420" value={disgust}></SingleBarComponent>
+        <SingleBarComponent name="Fear" color1="#FF007A" color2="#906490" value={fear}></SingleBarComponent> */}
+        <SingleBarComponent name="Happy" color1="#FD8D14" color2="#FD8D14" value={happy}></SingleBarComponent>
+        <SingleBarComponent name="Sad" color1="#0685FC" color2="#0685FC" value={sad}></SingleBarComponent>
+{/*         <SingleBarComponent name="surprise" color1="#F5B9C3" color2="#664E98" value={surprise}></SingleBarComponent> */}
+        <SingleBarComponent name="Neutral" color1="#1ED760" color2="#1ED760" value={neutral}></SingleBarComponent>
       </div>
     </>
   );

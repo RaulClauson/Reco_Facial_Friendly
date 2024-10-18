@@ -39,5 +39,25 @@
 
 video {
   width: 100%;
+  height: 100%;
   border-radius: 20px;
+  object-fit: cover;
+}
+
+.video {
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 320px;
+  height: 240px;
+  position: absolute;
+  z-index: 10000;
+  top: 30px;
+  left: 30px;
+  right: 30px;
+}
+
+@media (max-width: 444px) {
+  .video {
+    max-width: 100%;
+  }
 }
