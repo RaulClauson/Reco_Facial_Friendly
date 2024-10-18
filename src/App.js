@@ -50,7 +50,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-          <div style={{ width: "640px", height: "480px", position: "relative" }}>
+          <div style={{ width: "360px", height: "270px", position: "absolute", zIndex: "10000", top: "30px", left: "30px" }}>
             <video id="videoEl"></video>
             <FaceTrackerComponent videoEl={videoEl}></FaceTrackerComponent>
           </div>
